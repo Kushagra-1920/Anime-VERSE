@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/WebDesign211/animeverse/assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <title>Animeverse</title>
+</head>
+
+<body class="bg-black text-white">
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Animeverse</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Animeverse</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Anime</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Media</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleInterval" class="carousel slide mt-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="https://wallpapercave.com/wp/wp14646018.jpg" class="d-block w-100" alt="carousel 1" />
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://wallpapercave.com/wp/wp4366895.png" class="d-block w-100" alt="carousel 2" />
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://wallpapercave.com/wp/wp1027212.jpg" class="d-block w-100" alt="carousel 3" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="container mt-5">
+    <div class="row g-4">
+      
+      <!-- Dandadan -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card bg-dark text-white h-100 shadow-sm">
+          <img src="https://i.pinimg.com/originals/aa/46/47/aa4647d3d93f7c19f918c4f9d5f98f9a.jpg" class="card-img-top" style="height:220px; object-fit:cover;" alt="Dandadan" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Dandadan</h5>
+            <hr />
+            <p class="card-text text-center" style="font-size:0.9rem;">Supernatural battles and wild comedy!</p>
+            <a href="#" class="btn btn-danger btn-sm mt-auto">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chainsaw Man -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card bg-dark text-white h-100 shadow-sm">
+          <img src="https://i.pinimg.com/originals/35/fd/c5/35fdc5d54d07e65b6b9a2b58b6f94c12.jpg" class="card-img-top" style="height:220px; object-fit:cover;" alt="Chainsaw Man" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Chainsaw Man</h5>
+            <hr />
+            <p class="card-text text-center" style="font-size:0.9rem;">Denji hunts devils in a bloody ride.</p>
+            <a href="#" class="btn btn-danger btn-sm mt-auto">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jujutsu Kaisen -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card bg-dark text-white h-100 shadow-sm">
+          <img src="https://i.pinimg.com/originals/c4/6f/91/c46f917a2f2059d57cc3b9f4459f79a7.jpg" class="card-img-top" style="height:220px; object-fit:cover;" alt="Jujutsu Kaisen" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Jujutsu Kaisen</h5>
+            <hr />
+            <p class="card-text text-center" style="font-size:0.9rem;">Itadori Yuji joins sorcerers to fight curses.</p>
+            <a href="#" class="btn btn-danger btn-sm mt-auto">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Attack on Titan -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card bg-dark text-white h-100 shadow-sm">
+          <img src="https://i.pinimg.com/originals/7b/17/4f/7b174f65e91844dd52f60af827af8f6a.jpg" class="card-img-top" style="height:220px; object-fit:cover;" alt="Attack on Titan" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Attack on Titan</h5>
+            <hr />
+            <p class="card-text text-center" style="font-size:0.9rem;">Humanity fights titans in an epic saga.</p>
+            <a href="#" class="btn btn-danger btn-sm mt-auto">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Demon Slayer -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card bg-dark text-white h-100 shadow-sm">
+          <img src="https://i.pinimg.com/originals/73/76/3c/73763c2d36485cfa7b6a2dbf6dbe5848.jpg" class="card-img-top" style="height:220px; object-fit:cover;" alt="Demon Slayer" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Demon Slayer</h5>
+            <hr />
+            <p class="card-text text-center" style="font-size:0.9rem;">Tanjiro fights demons with his sword.</p>
+            <a href="#" class="btn btn-danger btn-sm mt-auto">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- One Piece -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card bg-dark text-white h-100 shadow-sm">
+          <img src="https://i.pinimg.com/originals/f6/61/2c/f6612cce14b0b58a6a5f4a1777fbd8ef.jpg" class="card-img-top" style="height:220px; object-fit:cover;" alt="One Piece" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">One Piece</h5>
+            <hr />
+            <p class="card-text text-center" style="font-size:0.9rem;">Luffy sails to become the Pirate King.</p>
+            <a href="#" class="btn btn-danger btn-sm mt-auto">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Naruto -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card bg-dark text-white h-100 shadow-sm">
+          <img src="https://i.pinimg.com/originals/2a/0a/b3/2a0ab36a79b4a312ff96aaf01cf249c8.jpg" class="card-img-top" style="height:220px; object-fit:cover;" alt="Naruto" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Naruto</h5>
+            <hr />
+            <p class="card-text text-center" style="font-size:0.9rem;">The journey of a ninja to become Hokage.</p>
+            <a href="#" class="btn btn-danger btn-sm mt-auto">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Death Note -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card bg-dark text-white h-100 shadow-sm">
+          <img src="https://i.pinimg.com/originals/4d/b8/6a/4db86a42b8c13a3c6e2a87f3c5a7db91.jpg" class="card-img-top" style="height:220px; object-fit:cover;" alt="Death Note" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Death Note</h5>
+            <hr />
+            <p class="card-text text-center" style="font-size:0.9rem;">Light Yagami gains power over life and death.</p>
+            <a href="#" class="btn btn-danger btn-sm mt-auto">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
